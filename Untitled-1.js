@@ -1,6 +1,6 @@
 var https = require('https');
 var querystring = require('querystring');
-var number = '01923821595';//event.Details.ContactData.CustomerEndpoint.Address;
+var number = event.Details.ContactData.CustomerEndpoint.Address;
 var apiKey = 'apikey=aasdaww2242435234';
 var authorisation = 'Basic asdadllkjlhau882hjs0772u20jwhgtw6622==';
 // request option
